@@ -5,7 +5,7 @@ Base settings for patchwork project.
 import os
 
 ROOT_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)),
-                        os.pardir, os.pardir)
+                        os.pardir)
 
 #
 # Core settings
@@ -97,7 +97,7 @@ SITE_ID = 1
 STATIC_URL = '/static/'
 
 STATICFILES_DIRS = [
-    os.path.join(ROOT_DIR, 'htdocs'),
+    os.path.join(ROOT_DIR, 'static'),
 ]
 
 #

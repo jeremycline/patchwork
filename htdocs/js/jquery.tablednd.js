@@ -1,1 +1,0 @@
-../../lib/packages/jquery/jquery.tablednd.js

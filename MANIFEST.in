@@ -1,0 +1,7 @@
+include COPYING CONTRIBUTING.rst README.rst
+include requirements-prod.txt requirements-test.txt
+recursive-include patchwork/static *.js *.css *.png *.ico *.eot *.svg *.ttf *.woff *.woff2
+recursive-include patchwork/templates *.html *.txt
+recursive-include patchwork/fixtures *.xml
+graft docs
+prune docs/_build
